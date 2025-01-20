@@ -5,6 +5,7 @@
     "margin-right": 10,
     "height" : 28,
     "modules-center": [
+  "bluetooth",
 	"custom/filemanager",
 	"custom/appmenu",
     "hyprland/workspaces",
@@ -22,6 +23,10 @@
         "": "Hyprland"
       },
       "separate-outputs": true
+    },
+    "bluetooth": {
+        "format": " ",
+        "on-click": "blueman-manager",
     },
     "custom/appmenu": {
         // START APPS LABEL
