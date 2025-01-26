@@ -27,21 +27,19 @@ button:hover {
 
 #workspaces button {
   padding: 0 5px;
-  background-color: transparent;
-  color: @rosewater;
+  color: #3b426e;
+  font-size: inherit;
+  transition: none;
 }
 
 #workspaces button:hover {
-  background: rgba(0, 0, 0, 0.2);
+  color: #46529c;
 }
 
 #workspaces button.focused {
-  background-color: @rosewater;
-  color: @base;
 }
 
 #workspaces button.urgent {
-  background-color: #eb4d4b;
 }
 
 #mode {
@@ -98,6 +96,7 @@ button:hover {
 	font-size: 20px;
 	margin: 0 10px;
 	padding: 0 10px;
+	color: white;
 }
 
 #custom-appmenu:hover {
@@ -112,6 +111,24 @@ button:hover {
 
 #custom-filemanager:hover {
 	color: #b06d2a;
+}
+
+#custom-exit {
+	color: white;
+
+  margin-right: 10px;
+}
+
+#wlr-taskbar {
+	font-size: 10px;
+}
+
+#custom-empty {
+  background-color: #24273a;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 2px #373f70;
+
+  padding: 0 80px;
 }
 
 #bluetooth {
