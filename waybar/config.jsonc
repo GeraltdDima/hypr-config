@@ -18,6 +18,7 @@
     "margin-right": 0,    
     "spacing": 0,
 	"position": "bottom",
+	"width": 1280,
 
     // Load Modules
     "include": ["~/.config/waybar/modules.json"],

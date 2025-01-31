@@ -113,6 +113,82 @@ button:hover {
 	color: #b06d2a;
 }
 
+#custom-firefox {
+	background-image: url('/home/dima/Icons/firefox.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+#custom-firefox:hover {
+  opacity: 0.7;
+}
+
+#custom-youtube {
+  background-image: url('/home/dima/Icons/youtube.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#custom-youtube:hover {
+  opacity: 0.7;
+}
+
+#custom-discord {
+  background-image: url('/home/dima/Icons/discord.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#custom-discord:hover {
+  opacity: 0.7;
+}
+
+#custom-telegram {
+  background-image: url('/home/dima/Icons/telegram.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#custom-telegram:hover {
+  opacity: 0.7;
+}
+
+#custom-steam {
+  background-image: url('/home/dima/Icons/steam.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#custom-steam:hover {
+  opacity: 0.7;
+}
+
+#custom-spotify {
+  background-image: url('/home/dima/Icons/spotify.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#custom-spotify:hover {
+  opacity: 0.7;
+}
+
+#custom-arrowsleft {
+  color: #373f70;
+  font-size: 20px;
+}
+
+#custom-arrowsright {
+  color: #373f70;
+  font-size: 20px;
+}
+
 #custom-exit {
 	color: white;
 
@@ -124,11 +200,7 @@ button:hover {
 }
 
 #custom-empty {
-  background-color: #24273a;
-  border-radius: 10px 10px 10px 10px;
-  border: solid 2px #373f70;
 
-  padding: 0 80px;
 }
 
 #bluetooth {
@@ -149,6 +221,10 @@ button:hover {
 }
 .modules-right {
   padding: 0 10px;
+
+  background-color: #24273a;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 2px #373f70;
 }
 
 .modules-left {
