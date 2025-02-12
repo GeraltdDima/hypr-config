@@ -76,7 +76,7 @@
 		},
 		"bluetooth": {
 			"format": " ",
-			"on-click": "blueman-manager",
+			"on-click": "overskride",
 		},
 		"custom/appmenu": {
 			// START APPS LABEL
@@ -109,7 +109,7 @@
 		},
 		"custom/filemanager": {
 			"format": "",
-			"on-click": "dolphin",
+			"on-click": "nautilus --new-window",
 			"tooltip": false
 		},
 		"hyprland/workspaces": {
@@ -154,12 +154,7 @@
 			"format-icons": ["", "", "", "", ""]
 		},
 		"network": {
-			"format-wifi": "  {signalStrength}%",
-			"format-ethernet": "{cidr} ",
-			"tooltip-format": "{ifname} via {gwaddr} ",
-			"format-linked": "{ifname} (No IP) ",
-			"format-disconnected": " ⚠ ",
-			"format-alt": "{ifname}: {ipaddr}/{cidr}"
+			"format": "  {signalStrength}%",
 		},
 		"pulseaudio": {
 			"format": "{icon}  {volume}%",
